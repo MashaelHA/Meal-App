@@ -2,20 +2,10 @@
 
 import 'package:flutter/material.dart';
 import '../widgets/meal_item.dart';
-// import '../models/catrgory.dart';
 import '../widgets/dummy_data.dart';
 
 class CategoryMeals extends StatelessWidget {
   static const routeName = '/category-meals';
-  // const CategoryMeals({super.key});
-
-  // final String CategoryId;
-  // final String CategoryTitle;
-
-  // CategoryMeals(
-  //   this.CategoryId,
-  //   this.CategoryTitle,
-  // );
 
   @override
   Widget build(BuildContext context) {

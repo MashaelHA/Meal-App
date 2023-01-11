@@ -18,7 +18,6 @@ class Meal {
   final List<String> ingredients;
   final List<String> steps;
   final int duration;
-  // final String complexity = 'simple';
   final Complexity complexity;
   final Affordability affordability;
   final bool isGlutenFree;

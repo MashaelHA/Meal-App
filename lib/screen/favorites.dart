@@ -6,7 +6,6 @@ import '../models/meal.dart';
 import '../widgets/meal_item.dart';
 
 class Favorites extends StatelessWidget {
-  // const Favorites({super.key});
 
   final List<Meal> favoriteMeals;
 

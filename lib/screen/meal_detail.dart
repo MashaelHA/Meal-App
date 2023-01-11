@@ -56,13 +56,6 @@ class MealDetail extends StatelessWidget {
                 fit: BoxFit.cover,
               ),
             ),
-            // Container(
-            //   margin: EdgeInsets.symmetric(vertical: 10),
-            //   child: Text(
-            //     'Ingredents',
-            //     style: Theme.of(context).textTheme.subtitle1,
-            //   ),
-            // ),
             buildSectionTitle(context, 'Ingredients'),
             buildContainer(
               ListView.builder(
@@ -105,7 +98,7 @@ class MealDetail extends StatelessWidget {
           child: Icon(
             isFavorite(mealId) ? Icons.star : Icons.star_border,
           ),
-          onPressed: () =>  toggleFavorit(mealId) //() {
+          onPressed: () => toggleFavorit(mealId) //() {
           //   Navigator.of(context).pop(mealId);
           // },
           ),

@@ -6,7 +6,6 @@ import '../screen/meal_detail.dart';
 import '../models/meal.dart';
 
 class MealItem extends StatelessWidget {
-  // const MealItem({super.key});
   final String id;
   final String title;
   final String imageUrl;

@@ -10,9 +10,6 @@ class Cateegories extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView(
-      //Scaffold(
-      // appBar: AppBar(title: const Text('DeliMeal')),
-      //body: GridView(
       padding: const EdgeInsets.all(25),
       children: DUMMY_CATEGORIES
           .map(
